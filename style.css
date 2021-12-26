@@ -4,7 +4,7 @@
   
   body{
     margin: 50px 80px;
-    text-align: justify;
+    text-align: center;
     font-family: poppins, monesta;
     font-size: 18 px;
     font-kerning: normal;
@@ -14,7 +14,7 @@
   
   header, main{
     margin: 8%;
-    text-align:justify;
+    text-align:center;
     text-align-last: center;
   
   
