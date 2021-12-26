@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 20px auto;
+    max-width: 80ch;
+    text-align: justify;
+    font-family: poppins, monesta;
+    font-size: 18 px;
+    font-kerning: normal;
+  }
+  
+  header, main{
+    margin: 8%;
+    text-align:justify;
+    text-align-last: center;
+  
+  
+  }
+  
+  .flex-container{
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .grid-container{
+  
+    display: grid;
+    
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  h1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: monesta;
+    font-weight:bold;
+    font-size: 41px;
+    margin: 8px;
+    padding: auto;
+  }
+  
+  h3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: monesta;
+    font-weight:normal;
+    font-size: 30px;
+    margin: 8px;
+    padding: auto;
+    
+  }
+
+  h4{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 5px;
+    padding: auto;
+    font-weight: lighter;
+  }
+
+  h5{
+    font-weight: lighter;
+    margin: 1px;
+  }
+
+  h6{
+    font-weight: lighter;
+    margin: 0px auto 24px;
+  }
+
+  .card{
+  
+    width: 620px;
+    height: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px rgba(0, 0, 0, 10) solid;
+    margin: 8px;
+    text-align: center;
+    
+  } 
+
+  .proto{
+  
+    width: 662px;
+    height: 509px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    
+  } 
+
+  footer{
+
+    text-align: center;
+
+  }
