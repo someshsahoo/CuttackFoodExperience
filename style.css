@@ -4,11 +4,12 @@
   
   body{
     margin: 20px auto;
-    max-width: 80ch;
     text-align: justify;
     font-family: poppins, monesta;
     font-size: 18 px;
     font-kerning: normal;
+    justify-content: center;
+    justify-items: center;
   }
   
   header, main{
@@ -48,6 +49,7 @@
     font-size: 41px;
     margin: 8px;
     padding: auto;
+    max-width: 80ch;
   }
   
   h3{
@@ -59,6 +61,7 @@
     font-size: 30px;
     margin: 8px;
     padding: auto;
+    max-width: 80ch;
     
   }
 
@@ -69,16 +72,23 @@
     margin: 5px;
     padding: auto;
     font-weight: lighter;
+    max-width: 80ch;
   }
 
   h5{
     font-weight: lighter;
     margin: 1px;
+    max-width: 80ch;
   }
 
   h6{
     font-weight: lighter;
     margin: 0px auto 24px;
+    max-width: 80ch;
+  }
+
+  p{
+    max-width: 80ch;
   }
 
   .card{
@@ -106,5 +116,6 @@
   footer{
 
     text-align: center;
+    max-width: 80ch;
 
   }
