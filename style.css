@@ -24,14 +24,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     
   }
   
-  .grid-container{
+  /* .grid-container{
   
     display: grid;
     
-  }
+  } */
   
   nav{
     display: flex;
@@ -119,3 +120,20 @@
     margin:10px 100px;
 
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+
+  .grid-item {
+    height: 170px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px rgba(0, 0, 0, 10) solid;
+    margin: 8px;
+    text-align: center;
+  }
+
+  
