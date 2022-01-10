@@ -3,7 +3,7 @@
   }
   
   body{
-    margin: 50px 80px;
+    margin: 100px 80px;
     text-align: center;
     font-family: poppins, monesta;
     font-size: 18 px;
@@ -14,7 +14,6 @@
     margin: 8%;
     text-align:center;
     text-align-last: center;
-  
   
   }
   
@@ -34,10 +33,6 @@
     
   } */
   
-  nav{
-    display: flex;
-    justify-content: space-evenly;
-  }
 
   h1{
     display: flex;
@@ -46,7 +41,7 @@
     font-family: monesta;
     font-weight:bold;
     font-size: 41px;
-    margin: 8px;
+    margin: 10px;
     padding: auto;
     max-width: 80ch;
   }
@@ -64,7 +59,19 @@
     
   }
 
-  h4{
+  .subhead{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: monesta;
+    font-weight:normal;
+    font-size: 22px;
+    padding: auto;
+    max-width: 80ch;
+    
+  }
+
+  /*h4{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -72,16 +79,10 @@
     padding: auto;
     font-weight: lighter;
     max-width: 80ch;
-  }
+  }*/
 
   h5{
-    font-weight: lighter;
-    margin: 1px;
-    max-width: 80ch;
-  }
-
-  h6{
-    font-weight: lighter;
+    font-weight:normal;
     margin: 0px auto 24px;
     max-width: 80ch;
   }
@@ -89,13 +90,24 @@
   p{
     max-width: 80ch;
     text-align: center;
-    margin:10px 100px;
+    margin: 15px 100px;
   }
 
   .card{
   
-    width: 620px;
+    width: 700px;
     height: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px rgba(0, 0, 0, 10) solid;
+    margin: 8px;
+    text-align: center;
+    
+  } 
+
+  .card1{
+    width: 600px;
+    height: auto; 
     justify-content: center;
     background-color: rgba(255, 255, 255, 0);
     border: 1.5px rgba(0, 0, 0, 10) solid;
@@ -106,11 +118,10 @@
 
   .proto{
   
-    width: 662px;
-    height: 509px;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0);
     text-align: center;
+    border: 0.2px;
     
   } 
 
@@ -124,16 +135,83 @@
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 
   .grid-item {
-    height: 170px;
+    height: 180px;
+    width: fit-content;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0);
-    border: 1px rgba(0, 0, 0, 10) solid;
+    border: 0.2px rgba(240, 240, 240, 10) solid;
     margin: 8px;
     text-align: center;
   }
 
-  
+.lin{
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/*nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: rgb(235, 235, 235);
+
+}*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+
+}
+
+#navbar a {
+  float:left;
+  color: #000;
+  text-align:center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 5px;
+  display: block;
+  /* width: 8.34%; */
+}
+
+#navbar a:hover {
+  background-color: rgb(224, 224, 224);
+  color: black;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#navbar a.active {
+  background-color: #d3d3d398;
+  color: #000;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 7%;
+  right: 7%;
+  width: 87%;
+  z-index: 1;
+  padding-top: 10px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+  z-index: 1;
+}
